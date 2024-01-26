@@ -1,8 +1,8 @@
 import { useSelector } from "react-redux";
 import { Routes, Route } from "react-router-dom";
 import Signin from "@pages/auth/signin";
-import Signup from "./pages/auth/signup";
-import Home from "./pages/home/home";
+import Signup from "@pages/auth/signup";
+import Home from "@pages/home/home";
 
 function App() {
   const { theme } = useSelector((state) => state.theme);
